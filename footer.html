@@ -1,0 +1,11 @@
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    var num = <?= $num ?>;
+    // var a = document.querySelectorAll('nav a');
+    // console.log(a[num]);
+    // a[num].classList.add('on');
+    $('nav a').eq(num).addClass('on');
+</script>
+</body>
+
+</html>
